@@ -1,0 +1,755 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/src/css/output.css" />
+    <link rel="icon" href="/src/assets/logo-mobile.svg" />
+    <title>
+      Frontend Mentor | Front-end coding challenges using a real-life workflow
+    </title>
+  </head>
+  <body class="min-h-screen bg-[#fafafa]">
+    <nav class="p-6">
+      <div class="flex justify-between">
+        <img
+          src="/src/assets/logo-mobile.svg"
+          alt=""
+          class="pt-1 size-[2.6rem]"
+        />
+
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke-width="1.5"
+          stroke="currentColor"
+          class="size-[3rem]"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
+          />
+        </svg>
+      </div>
+    </nav>
+    <header
+      class="w-screen flex justify-left pl-5 md:pl-10 flex-col gap-10 md:flex-row md:overflow-clip md:gap-1 md:pt-15"
+    >
+      <div class="flex flex-col gap-10">
+        <h2
+          class="text-[#3e54a3] w-[85vw] md:w-[58vw] text-left text-4xl font-medium md:text-5xl"
+        >
+          Improve your coding skills by building realistic projects
+        </h2>
+        <p
+          class="w-[80vw] md:w-[65vw] text-2xl text-left text-[#737373] mb-6 md:mb-1"
+        >
+          Our professionally designed challenges help you gain hands-on
+          experience writing HTML, CSS, and JavaScript. We create the designs so
+          you can focus on the code and see your skills skyrocket!
+        </p>
+        <div
+          class="bg-[#ed2c49] rounded-full py-3 px-10 flex justify-between items-center w-[90vw] md:w-[40vw]"
+        >
+          <a href="" class="font-bold text-xl text-white">LOG IN WITH GITHUB</a>
+          <img
+            src="/src/assets/icons8-github-48.png"
+            class="w-[30px]x object-cover"
+            alt=""
+          />
+        </div>
+        <div
+          class="bg-[#ffffff] flex flex-col rounded-xl p-5 items-center gap-4 md:flex-row"
+        >
+          <img
+            src="/src/assets/home-community-avatars.webp"
+            class="w-[250px] h-[100px]"
+            alt=""
+          />
+          <p
+            class="text-center w-[75vw] md:w-[65vw] md:text-left md:font-medium md:text-lg"
+          >
+            Join
+            <span class="text-[#3e54a3] font-extrabold font-sans">974,305</span>
+            developers building, projects, reviewing code, and helping each
+            other improve.
+          </p>
+        </div>
+      </div>
+      <img src="/src/assets/home-hero.webp" class="w-[80vw]" alt="" />
+    </header>
+    <main>
+      <div
+        class="p-5 mt-5 flex flex-col gap-5 md:flex-row md:justify-center md:items-center"
+      >
+        <div
+          class="bg-[#ffffff] flex flex-col rounded-xl p-8 px-3 items-center gap-4"
+        >
+          <img
+            src="/src/assets/Screenshot 2025-02-26 132932.png"
+            class="w-[80px] h-[80px]"
+            alt=""
+          />
+          <p
+            class="text-center w-[80vw] md:w-[37vw] md:text-2xl md:font-medium"
+          >
+            I highly recommend Frontend Mentor. Skip the search for project
+            ideas and dive into ready-made challenges that help you level up as
+            a developer.
+          </p>
+          <img src="/src/assets/Screenshot 2025-02-26 084228.png" alt="" />
+          <span class="text-[#3e54a3] font-bold text-center">KEVIN POWELL</span>
+          <p class="text-[#737373] md:text-lg">Web Developer & YouTuber</p>
+        </div>
+        <div
+          class="bg-[#ffffff] flex flex-col rounded-xl p-8 items-center gap-4"
+        >
+          <img
+            src="/src/assets/Screenshot 2025-02-26 132932.png"
+            class="w-[80px] h-[80px]"
+            alt=""
+          />
+          <p
+            class="text-center w-[70vw] md:w-[37vw] md:text-2xl md:font-medium"
+          >
+            Frontend Mentor is a win-win. You can sharpen your skills building
+            websites and add finished projects to your portfolio to help land a
+            job!
+          </p>
+          <img src="/src/assets/Screenshot 2025-02-26 084250.png" alt="" />
+          <span class="text-[#3e54a3] font-bold text-center">JESSICA CHAN</span>
+          <p class="text-[#737373] md:text-lg">Web Developer & YouTuber</p>
+        </div>
+      </div>
+      <div class="flex justify-center items-center py-24">
+        <div class="pt-10 flex flex-col gap-10 justify-center items-center">
+          <p class="font-bold text-lg md:font-bold md:text-xl">
+            AS FEATURED ON...
+          </p>
+          <div class="flex flex-col gap-5 md:flex-row md:px-5">
+            <div
+              class="ring-1 ring-gray-200 py-6 px-10 rounded-lg cursor-pointer"
+            >
+              <img src="/src/assets/logo-css-tricks.svg" alt="" />
+            </div>
+            <div
+              class="ring-1 ring-gray-200 py-6 px-10 rounded-lg cursor-pointer"
+            >
+              <img src="/src/assets/logo-stack-overflow.svg" alt="" />
+            </div>
+            <div
+              class="ring-1 ring-gray-200 py-6 px-10 rounded-lg cursor-pointer"
+            >
+              <img src="/src/assets/logo-product-hunt.svg" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="pb-20 flex flex-col gap-30">
+        <div class="flex flex-col gap-20 md:flex-row pl-5">
+          <img
+            src="/src/assets/home-benefit-1.webp"
+            class="md:size-[40vw]"
+            alt=""
+          />
+          <div class="md:gap-10 md:flex md:flex-col">
+            <div
+              class="bg-gray-200 rounded-full size-[5rem] py-5 px-10 flex justify-center items-center text-4xl md:size-[7rem] md:text-6xl"
+            >
+              😈
+            </div>
+            <div class="flex flex-col gap-5">
+              <h3 class="font-medium text-2xl md:text-5xl">
+                Escape tutorial hell
+              </h3>
+              <p class="text-[#737373] w-[80vw] md:w-[45vw] md:text-3xl">
+                Add projects to your learning journey and put your knowledge to
+                the test. The real learning happens when you start solving
+                real-world problems yourself.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="flex flex-col gap-20 md:gap-15 md:flex-row-reverse pl-5">
+          <img
+            src="/src/assets/home-benefit-2.webp"
+            class="md:size-[45vw]"
+            alt=""
+          />
+          <div class="flex flex-col gap-5">
+            <div
+              class="bg-gray-200 rounded-full size-[5rem] py-5 px-10 flex justify-center items-center text-4xl md:size-[7rem] md:text-6xl"
+            >
+              🤩
+            </div>
+            <div class="flex flex-col gap-5">
+              <h3 class="font-medium text-2xl md:text-5xl md:w-[45vw]">
+                Build portfolio-worthy projects
+              </h3>
+              <p class="text-[#737373] w-[80vw] md:w-[45vw] md:text-3xl">
+                Design is hard. We take care of the project ideas and design so
+                you can focus on the coding. You’ll end up with an incredible
+                portfolio of stunning projects!
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="flex flex-col gap-20 md:gap-15 md:flex-row pl-5">
+          <img
+            src="/src/assets/home-benefit-3.webp"
+            class="md:size-[40vw]"
+            alt=""
+          />
+          <div class="flex flex-col gap-5">
+            <div
+              class="bg-gray-200 rounded-full size-[5rem] py-5 px-10 flex justify-center items-center text-4xl md:size-[7rem] md:text-6xl"
+            >
+              🚀
+            </div>
+            <div class="flex flex-col gap-5">
+              <h3 class="font-medium text-2xl md:text-5xl md:w-[45vw]">
+                Banish impostor syndrome
+              </h3>
+              <p class="text-[#737373] w-[80vw] md:w-[45vw] md:text-3xl">
+                We’ve all felt out of our depth before. Getting hands-on
+                experience is an incredible way to build confidence, refine your
+                workflow, and supercharge your learning.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="flex flex-col gap-20 md:gap-15 md:flex-row-reverse pl-5">
+          <img
+            src="/src/assets/home-benefit-4.webp"
+            class="md:size-[45vw]"
+            alt=""
+          />
+          <div class="flex flex-col gap-5">
+            <div
+              class="bg-gray-200 rounded-full size-[5rem] py-5 px-10 flex justify-center items-center text-4xl md:size-[7rem] md:text-6xl"
+            >
+              🛠️
+            </div>
+            <div class="flex flex-col gap-5">
+              <h3 class="font-medium text-2xl md:text-5xl md:w-[45vw]">
+                Practice new tools
+              </h3>
+              <p class="text-[#737373] w-[80vw] md:w-[45vw] md:text-3xl">
+                The front-end landscape changes constantly. Our design-led
+                challenges let you pick your tools to help you adapt,
+                experiment, and keep up with the latest trends.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="flex flex-col gap-20 md:gap-15 md:flex-row pl-5">
+          <img
+            src="/src/assets/home-benefit-5.webp"
+            class="md:size-[45vw]"
+            alt=""
+          />
+          <div class="flex flex-col gap-5">
+            <div
+              class="bg-gray-200 rounded-full size-[5rem] md:size-[7rem] py-5 px-10 flex justify-center items-center text-4xl md:text-6xl"
+            >
+              🤝
+            </div>
+            <div class="flex flex-col gap-5">
+              <h3 class="font-medium text-2xl md:text-5xl md:w-[45vw]">
+                Create job opportunities
+              </h3>
+              <p class="text-[#737373] w-[80vw] md:w-[45vw] md:text-3xl">
+                We have a <a href="" class="underline">Hiring Platform</a> that
+                runs alongside this platform. Just by building projects and
+                engaging with the community, you could open up job
+                opportunities!
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="py-30 flex justify-center items-center">
+        <div
+          class="bg-[#f0f4f4] w-[90vw] flex flex-col rounded-lg justify-center items-center gap-15 md:gap-1 md:flex-row-reverse"
+        >
+          <img
+            src="/src/assets/home-how-it-works-4.webp"
+            class="w-[80vw] md:w-[45vw]"
+            alt=""
+          />
+          <div>
+            <h2 class="font-medium text-2xl text-center pb-10 md:pt-10 md:pb-0">How it works</h2>
+            <div class="flex flex-col gap-5 py-20 md:pb-20 pt-10">
+              <div class="flex justify-center items-center">
+                <div
+                  class="flex items-center gap-5 ring-1 ring-gray-200 bg-white rounded-lg w-[80vw] md:w-[40vw] py-3 px-3 cursor- hover:bg-[#3e54a3] hover:text-white"
+                >
+                  <span
+                    class="bg-[#6abecd] rounded-full w-[1rem] h-[2.5rem] text-white px-5 flex justify-center items-center text-md"
+                    >1</span
+                  >
+                  <span class="font-medium md:text-xl">Choose you challenge</span>
+                </div>
+              </div>
+              <div class="flex justify-center items-center">
+                <div
+                  class="flex items-center gap-5 ring-1 ring-gray-200 bg-white rounded-lg w-[80vw] md:w-[40vw] py-3 px-3 cursor- hover:bg-[#3e54a3] hover:text-white"
+                >
+                  <span
+                    class="bg-[#6abecd] rounded-full w-[1rem] h-[2.5rem] text-white px-5 flex justify-center items-center text-md"
+                    >2</span
+                  >
+                  <span class="font-medium md:text-xl">Code the design</span>
+                </div>
+              </div>
+              <div class="flex justify-center items-center">
+                <div
+                  class="flex items-center gap-5 ring-1 ring-gray-200 bg-white rounded-lg w-[80vw] md:w-[40vw] py-3 px-3 cursor- hover:bg-[#3e54a3] hover:text-white"
+                >
+                  <span
+                    class="bg-[#6abecd] rounded-full w-[1rem] h-[2.5rem] text-white px-5 flex justify-center items-center text-md"
+                    >3</span
+                  >
+                  <span class="font-medium md:text-xl">Submit your solution</span>
+                </div>
+              </div>
+              <div class="flex justify-center items-center">
+                <div
+                  class="flex items-center gap-5 ring-1 ring-gray-200 bg-white rounded-lg w-[80vw] md:w-[40vw] py-3 px-3 cursor- hover:bg-[#3e54a3] hover:text-white"
+                >
+                  <span
+                    class="bg-[#6abecd] rounded-full w-[1rem] h-[2.5rem] text-white px-5 flex justify-center items-center text-md"
+                    >4</span
+                  >
+                  <span class="font-medium md:text-xl">Give others feedback</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="flex flex-col justify-center items-center gap-20">
+        <div class="flex flex-col justify-center items-center px-5 gap-5 md:justify-center">
+          <h2 class="font-medium text-2xl text-center w-[75vw] md:w-[70vw] md:leading-16 md:text-5xl">
+            Take your skills to the next level with our
+            <span
+              class="uppercase rounded-lg px-2 bg-[#3e54a3] font-bold text-white"
+              >PRO</span
+            >
+            subscription
+          </h2>
+          <p class="text-[#737373] text-center w-[85vw] md:w-[60vw] md:text-2xl">
+            Step into the shoes of a professional developer and build projects
+            in the most realistic way possible. Our Pro subscription will help
+            you prepare for life as a professional developer.
+          </p>
+        </div>
+        <div class="px-5 mt-5 flex flex-col gap-5 md:flex-row" >
+          <div
+            class="bg-[#ffffff] flex flex-col rounded-xl p-4 items-center gap-4"
+          >
+            <img
+              src="/src/assets/Screenshot 2025-02-26 084454.png"
+              class="w-[80px] h-[80px]"
+              alt=""
+            />
+            <h2 class="text-2xl text-center font-medium w-[70vw] md:w-[40vw]">
+              Access each challenge's design file
+            </h2>
+            <p class="text-center w-[65vw] md:w-[40vw] md:text-xl">
+              Professional teams use tools like Figma. By using these tools when
+              building projects, you’ll save time, create more accurate
+              solutions, and gain hands-on experience working like a pro.
+            </p>
+          </div>
+          <div class="px-3 mt-5 flex flex-col gap-5">
+            <div
+              class="bg-[#ffffff] flex flex-col rounded-xl p-4 items-center gap-4"
+            >
+              <img
+                src="/src/assets/Screenshot 2025-02-26 084510.png"
+                class="size-[80px]"
+                alt=""
+              />
+              <h2 class="text-2xl text-center font-medium md:w-[40vw]">
+                Tackle our premium challenges
+              </h2>
+              <p class="text-center w-[65vw] md:w-[40vw] md:text-xl">
+                Our premium challenges are the most realistic, comprehensive
+                practice projects you’ll find. They also make incredible
+                portfolio pieces to help you “wow!” recruiters and get hired.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div
+          class="bg-[#ed2c49] rounded-full py-3 px-10 flex justify-center items-center text-center w-[65vw] md:w-[30vw]"
+        >
+          <a href="" class="font-bold text-white">LEARN ABOUT PRO</a>
+        </div>
+      </div>
+      <div class="py-30 flex justify-center items-center">
+        <div
+          class="bg-[#f0f4f4] w-[85vw] flex flex-col rounded-lg justify-center items-center gap-15 p-10"
+        >
+          <h2 class="text-3xl text-center w-[60vw] font-semibold pt-20">
+            A little ❤️ from our community
+          </h2>
+          <div class="flex flex-wrap justify-around gap-y-8">
+            <div
+              class="bg-[#ffffff] flex flex-col rounded-xl p-8 px-3 items-center gap-20 md:w-[45%]"
+            >
+              <p class="text-left w-[50%] text-[#737373] md:w-[60%]">
+                This platform provides everything developers need to improve
+                their skills. The community is great, and the challenges keep me
+                motivated, instill accountability through regular submissions,
+                and allow me to build a professional portfolio by showcasing
+                diverse projects.
+              </p>
+              <div class="flex">
+                <div class="flex flex-row gap-5 ">
+                  <img
+                    src="/src/assets/Screenshot 2025-02-26 192741.png"
+                    alt=""
+                  />
+                  <div class="flex flex-col gap-4">
+                    <span class="text-[#3e54a3] font-bold text-center"
+                      >Francesca</span
+                    >
+                    <p class="text-[#737373]">@frrann</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="bg-[#ffffff] flex flex-col rounded-xl p-8 px-3 items-center gap-20 md:w-[45%]"
+            >
+              <p class="text-left w-[65%] text-[#737373]">
+                Frontend Mentor eliminated the hurdle of sourcing designs,
+                letting me focus on development. Their professional projects,
+                especially in the Pro subscription, challenge me to create
+                complex, multi-page websites. With a supportive community and
+                feedback from advanced programmers, my skills have been elevated
+                to new heights.
+              </p>
+              <div class="flex">
+                <div class="flex flex-row gap-5 md:gap-0">
+                  <img
+                    src="/assets/Screenshot 2025-02-26 210911.png"
+                    alt=""
+                  />
+                  <div class="flex flex-col gap-4 w-[30vw] md:w-[20vw] justify-center items-center">
+                    <span class="text-[#3e54a3] font-bold text-center"
+                      >Alfie</span
+                    >
+                    <p class="text-[#737373] text-lg truncate">
+                      @alfiemitchell123
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="bg-[#ffffff] flex flex-col rounded-xl p-8 px-3 items-center gap-20 md:w-[45%]"
+            >
+              <p class="text-left w-[50%] text-[#737373]">
+                Frontend Mentor transformed me from a newbie to a professional
+                developer, enabling me to create flawless, responsive,
+                accessible websites. It’s a superb platform for feedback with a
+                supportive community backing your growth. Through it, I evolved
+                from a frontend to a full-stack developer.
+              </p>
+              <div class="flex">
+                <div class="flex flex-row gap-5">
+                  <img
+                    src="/assets/Screenshot 2025-02-26 220457.png"
+                    alt=""
+                  />
+                  <div class="flex flex-col gap-4">
+                    <span class="text-[#3e54a3] font-bold text-center"
+                      >Hikmah</span
+                    >
+                    <p class="text-[#737373]">@Hikmahx</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="bg-[#ffffff] flex flex-col rounded-xl p-8 px-3 items-center gap-20 md:w-[45%]"
+            >
+              <p class="text-left w-[50%] text-[#737373]">
+                Frontend Mentor has helped tremendously. Working on the newbie
+                challenges really helped me get better at building layouts.
+                Also, it increased my JavaScript skills. Working with APIs, DOM
+                manipulation, and so on greatly increased my knowledge. Would
+                totally recommend it.
+              </p>
+              <div class="flex">
+                <div class="flex flex-row gap-5">
+                  <img
+                    src="/assets/Screenshot 2025-02-26 220608.png"
+                    alt=""
+                  />
+                  <div class="flex flex-col gap-4">
+                    <span class="text-[#3e54a3] font-bold text-center"
+                      >Nuel</span
+                    >
+                    <p class="text-[#737373]">@ijklmopffs</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="bg-[#ffffff] flex flex-col rounded-xl p-8 px-3 items-center gap-20 md:w-[45%]"
+            >
+              <p class="text-left w-[50%] text-[#737373]">
+                After completing a software bootcamp, Frontend Mentor let me
+                build real-world projects, strengthening my developer skills. I
+                wouldn’t be where I am today without it.
+              </p>
+              <div class="flex">
+                <div class="flex flex-row gap-5">
+                  <img
+                    src="/assets/Screenshot 2025-02-26 220836.png"
+                    alt=""
+                  />
+                  <div class="flex flex-col gap-4">
+                    <span class="text-[#3e54a3] font-bold text-center"
+                      >MIchelle</span
+                    >
+                    <p class="text-[#737373]">@maberizk</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="flex flex-col justify-center items-center gap-10">
+        <div class="font-medium font-stretch-ultra-expanded text-3xl">FAQS</div>
+        <div class="flex justify-center items-center">
+          <div
+            class="flex items-center justify-between gap-5 ring-1 ring-gray-200 bg-white rounded-lg w-[85vw] py-3 px-3 cursor- hover:bg-[#3e54a3] hover:text-white"
+          >
+            <p class="font-medium">Is it free?</p>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="2"
+              stroke="currentColor"
+              class="size-6"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M12 4.5v15m7.5-7.5h-15"
+              />
+            </svg>
+          </div>
+        </div>
+        <div class="flex justify-center items-center">
+          <div
+            class="flex items-center justify-between gap-5 ring-1 ring-gray-200 bg-white rounded-lg w-[85vw] py-3 px-3 cursor- hover:bg-[#3e54a3] hover:text-white"
+          >
+            <p class="font-medium">Can I use these projects in my portfolio?</p>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="2"
+              stroke="currentColor"
+              class="size-6"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M12 4.5v15m7.5-7.5h-15"
+              />
+            </svg>
+          </div>
+        </div>
+        <div class="flex justify-center items-center">
+          <div
+            class="flex justify-between items-center gap-5 ring-1 ring-gray-200 bg-white rounded-lg w-[85vw] py-3 px-3 cursor- hover:bg-[#3e54a3] hover:text-white"
+          >
+            <p class="font-medium">Can I take the challenges as a beginner?</p>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="2"
+              stroke="currentColor"
+              class="size-6"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M12 4.5v15m7.5-7.5h-15"
+              />
+            </svg>
+          </div>
+        </div>
+        <div class="flex justify-center items-center">
+          <div
+            class="flex justify-between items-center gap-5 ring-1 ring-gray-200 bg-white rounded-lg w-[85vw] py-3 px-3 cursor- hover:bg-[#3e54a3] hover:text-white"
+          >
+            <p class="font-medium">How do I start?</p>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="2"
+              stroke="currentColor"
+              class="size-6"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M12 4.5v15m7.5-7.5h-15"
+              />
+            </svg>
+          </div>
+        </div>
+        <div class="flex justify-center items-center">
+          <div
+            class="flex justify-between items-center gap-5 ring-1 ring-gray-200 bg-white rounded-lg w-[85vw] py-3 px-3 cursor- hover:bg-[#3e54a3] hover:text-white"
+          >
+            <p class="font-medium">
+              How can I get help if I'm stuck on a challenge?
+            </p>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="2"
+              stroke="currentColor"
+              class="size-7"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M12 4.5v15m7.5-7.5h-15"
+              />
+            </svg>
+          </div>
+        </div>
+        <div class="flex justify-center items-center">
+          <div
+            class="flex justify-between items-center gap-5 ring-1 ring-gray-200 bg-white rounded-lg w-[85vw] py-3 px-3 cursor- hover:bg-[#3e54a3] hover:text-white"
+          >
+            <p class="font-medium">
+              Can I use libraries/frameworks on these projects?
+            </p>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="2"
+              stroke="currentColor"
+              class="size-7"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M12 4.5v15m7.5-7.5h-15"
+              />
+            </svg>
+          </div>
+        </div>
+        <div class="flex justify-center items-center">
+          <div
+            class="flex justify-between items-center gap-5 ring-1 ring-gray-200 bg-white rounded-lg w-[85vw] py-3 px-3 cursor- hover:bg-[#3e54a3] hover:text-white"
+          >
+            <p class="font-medium">
+              Am I guaranteed to get hired through the Hiring Platform?
+            </p>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="2"
+              stroke="currentColor"
+              class="size-7"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M12 4.5v15m7.5-7.5h-15"
+              />
+            </svg>
+          </div>
+        </div>
+      </div>
+      <div
+        class="flex flex-col justify-center items-center gap-5"
+        style="padding-bottom: 100px"
+      >
+        <div class="flex flex-col justify-center items-center px-5 pt-10 gap-4">
+          <h2 class="font-medium text-2xl text-center w-[75vw] text-[#3e54a3]">
+            Join 974,305 people building portfolio-worthy projects
+          </h2>
+          <p class="text-[#737373] text-center w-[85vw]">
+            Our highly supportive, positive community is here to help you
+            improve your skills. We all try to help each other out wherever
+            possible. We’d love to welcome you to our community!
+          </p>
+        </div>
+        <div
+          class="bg-[#ed2c49] rounded-full py-2 pl-4 pr-4 flex justify-evenly items-center w-[80vw]"
+        >
+          <a href="" class="font-bold text-xl text-white">LOG IN WITH GITHUB</a>
+          <img
+            src="/src/assets/Screenshot 2025-02-26 234617.png"
+            class="size-[20px] stroke-current text-white"
+            alt=""
+          />
+        </div>
+      </div>
+      <div
+        class="bg-[#3e54a3] flex justify-center items-center flex-col gap-10 pt-10"
+      >
+        <h2 class="text-white text-2xl w-[70vw] font-medium text-center">
+          Are you looking to hire talented, passionate developers?
+        </h2>
+        <p class="text-white text-lg w-[80vw] text-center">
+          Our Hiring Platform helps you connect with our diverse community of
+          talented early-career developers. Stop wading through hundreds of
+          resumes and get chatting to skilled developers in minutes.
+        </p>
+        <div
+          class="bg-white rounded-full py-2 pl-4 pr-4 flex justify-center items-center w-[80vw] text-[#3e54a3] italic font-bold"
+        >
+          <a href="" class=""></a>START HIRING DEVELOPERS
+        </div>
+        <img src="/assets/home-hiring.webp" alt="" class="px-4" />
+      </div>
+      <div class="flex" style="padding-top: 50px">
+        <div>
+          <img src="/assets/logo-desktop.svg" alt="" />
+          <div class="flex">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              x="0px"
+              y="0px"
+              width="50"
+              height="50"
+              viewBox="0 0 50 50"
+              class="stroke-current fill-[#6abecd]"
+            >
+              <path
+                d="M 18.90625 7 C 18.90625 7 12.539063 7.4375 8.375 10.78125 C 8.355469 10.789063 8.332031 10.800781 8.3125 10.8125 C 7.589844 11.480469 7.046875 12.515625 6.375 14 C 5.703125 15.484375 4.992188 17.394531 4.34375 19.53125 C 3.050781 23.808594 2 29.058594 2 34 C 1.996094 34.175781 2.039063 34.347656 2.125 34.5 C 3.585938 37.066406 6.273438 38.617188 8.78125 39.59375 C 11.289063 40.570313 13.605469 40.960938 14.78125 41 C 15.113281 41.011719 15.429688 40.859375 15.625 40.59375 L 18.0625 37.21875 C 20.027344 37.683594 22.332031 38 25 38 C 27.667969 38 29.972656 37.683594 31.9375 37.21875 L 34.375 40.59375 C 34.570313 40.859375 34.886719 41.011719 35.21875 41 C 36.394531 40.960938 38.710938 40.570313 41.21875 39.59375 C 43.726563 38.617188 46.414063 37.066406 47.875 34.5 C 47.960938 34.347656 48.003906 34.175781 48 34 C 48 29.058594 46.949219 23.808594 45.65625 19.53125 C 45.007813 17.394531 44.296875 15.484375 43.625 14 C 42.953125 12.515625 42.410156 11.480469 41.6875 10.8125 C 41.667969 10.800781 41.644531 10.789063 41.625 10.78125 C 37.460938 7.4375 31.09375 7 31.09375 7 C 31.019531 6.992188 30.949219 6.992188 30.875 7 C 30.527344 7.046875 30.234375 7.273438 30.09375 7.59375 C 30.09375 7.59375 29.753906 8.339844 29.53125 9.40625 C 27.582031 9.09375 25.941406 9 25 9 C 24.058594 9 22.417969 9.09375 20.46875 9.40625 C 20.246094 8.339844 19.90625 7.59375 19.90625 7.59375 C 19.734375 7.203125 19.332031 6.964844 18.90625 7 Z M 18.28125 9.15625 C 18.355469 9.359375 18.40625 9.550781 18.46875 9.78125 C 16.214844 10.304688 13.746094 11.160156 11.4375 12.59375 C 11.074219 12.746094 10.835938 13.097656 10.824219 13.492188 C 10.816406 13.882813 11.039063 14.246094 11.390625 14.417969 C 11.746094 14.585938 12.167969 14.535156 12.46875 14.28125 C 17.101563 11.410156 22.996094 11 25 11 C 27.003906 11 32.898438 11.410156 37.53125 14.28125 C 37.832031 14.535156 38.253906 14.585938 38.609375 14.417969 C 38.960938 14.246094 39.183594 13.882813 39.175781 13.492188 C 39.164063 13.097656 38.925781 12.746094 38.5625 12.59375 C 36.253906 11.160156 33.785156 10.304688 31.53125 9.78125 C 31.59375 9.550781 31.644531 9.359375 31.71875 9.15625 C 32.859375 9.296875 37.292969 9.894531 40.3125 12.28125 C 40.507813 12.460938 41.1875 13.460938 41.8125 14.84375 C 42.4375 16.226563 43.09375 18.027344 43.71875 20.09375 C 44.9375 24.125 45.921875 29.097656 45.96875 33.65625 C 44.832031 35.496094 42.699219 36.863281 40.5 37.71875 C 38.5 38.496094 36.632813 38.84375 35.65625 38.9375 L 33.96875 36.65625 C 34.828125 36.378906 35.601563 36.078125 36.28125 35.78125 C 38.804688 34.671875 40.15625 33.5 40.15625 33.5 C 40.570313 33.128906 40.605469 32.492188 40.234375 32.078125 C 39.863281 31.664063 39.226563 31.628906 38.8125 32 C 38.8125 32 37.765625 32.957031 35.46875 33.96875 C 34.625 34.339844 33.601563 34.707031 32.4375 35.03125 C 32.167969 35 31.898438 35.078125 31.6875 35.25 C 29.824219 35.703125 27.609375 36 25 36 C 22.371094 36 20.152344 35.675781 18.28125 35.21875 C 18.070313 35.078125 17.8125 35.019531 17.5625 35.0625 C 16.394531 34.738281 15.378906 34.339844 14.53125 33.96875 C 12.234375 32.957031 11.1875 32 11.1875 32 C 10.960938 31.789063 10.648438 31.699219 10.34375 31.75 C 9.957031 31.808594 9.636719 32.085938 9.53125 32.464844 C 9.421875 32.839844 9.546875 33.246094 9.84375 33.5 C 9.84375 33.5 11.195313 34.671875 13.71875 35.78125 C 14.398438 36.078125 15.171875 36.378906 16.03125 36.65625 L 14.34375 38.9375 C 13.367188 38.84375 11.5 38.496094 9.5 37.71875 C 7.300781 36.863281 5.167969 35.496094 4.03125 33.65625 C 4.078125 29.097656 5.0625 24.125 6.28125 20.09375 C 6.90625 18.027344 7.5625 16.226563 8.1875 14.84375 C 8.8125 13.460938 9.492188 12.460938 9.6875 12.28125 C 12.707031 9.894531 17.140625 9.296875 18.28125 9.15625 Z M 18.5 21 C 15.949219 21 14 23.316406 14 26 C 14 28.683594 15.949219 31 18.5 31 C 21.050781 31 23 28.683594 23 26 C 23 23.316406 21.050781 21 18.5 21 Z M 31.5 21 C 28.949219 21 27 23.316406 27 26 C 27 28.683594 28.949219 31 31.5 31 C 34.050781 31 36 28.683594 36 26 C 36 23.316406 34.050781 21 31.5 21 Z M 18.5 23 C 19.816406 23 21 24.265625 21 26 C 21 27.734375 19.816406 29 18.5 29 C 17.183594 29 16 27.734375 16 26 C 16 24.265625 17.183594 23 18.5 23 Z M 31.5 23 C 32.816406 23 34 24.265625 34 26 C 34 27.734375 32.816406 29 31.5 29 C 30.183594 29 29 27.734375 29 26 C 29 24.265625 30.183594 23 31.5 23 Z"
+              ></path>
+            </svg>
+            <img src="/assets/Screenshot 2025-02-26 084652.png" alt="" />
+            <img src="/assets/Screenshot 2025-02-26 084709.png" alt="" />
+            <img src="/assets/Screenshot 2025-02-26 084728.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
